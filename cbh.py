@@ -1,8 +1,9 @@
-numbers = [8, 9, 10, 11]
-numbers.insert(1, 17)
-n = [4, 5, 6]
-numbers.extend(n)
-numbers.pop(0)
-numbers.extend(numbers)
-numbers.insert(3,25)
-print(numbers)
+# объявление функции
+def draw_triangle():
+    for i in range(8, 0, -1):
+        for j in range(i):
+            print(' ', end='')
+        print((16-i-j) * '*')
+
+# основная программа
+draw_triangle()  # вызов функции
