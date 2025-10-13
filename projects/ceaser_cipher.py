@@ -12,7 +12,7 @@ def get_number():
 
 def get_desition():
     while True:
-        what_to_do = input('1. шифровать строку \n2. дешифровать строку \n')
+        what_to_do = input('1. шифровать строку цезарем\n2. дешифровать строку цезарем\n')
         if what_to_do == '1' or what_to_do == '2':
             return what_to_do
         else:
